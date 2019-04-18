@@ -46,7 +46,7 @@ task "serve"(type: JRubyExec) {
 
 task "build"(type: JRubyExec) {
   script "jekyll"
-  scriptArgs "build", "-s", jekyllWorkDir
+  scriptArgs "build", "-s", jekyllWorkDir, "-d", "docs"
 }
 
 defaultTasks "build"
