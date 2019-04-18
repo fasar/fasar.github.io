@@ -1,1 +1,9 @@
 GenevaJUG's website
+
+Let the magic operate by running gradlew commands.
+
+
+./gradlew serve to get a server on port 4000
+
+./gradlew build to get the web site on the _site folder
+
