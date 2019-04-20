@@ -3,3 +3,5 @@
 /_site/
 /.project
 .idea/
+.gradle
+build/
